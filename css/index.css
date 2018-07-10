@@ -1,0 +1,16 @@
+body{
+    background-color: #4eb55f;
+    color: #ffffff;
+    font-family: '宋体';
+    font-size: 30px;
+    /*加粗*/
+    font-weight: bold;
+    /*斜体*/
+    font-style: italic;
+    /*下划线*/
+    text-decoration: underline;
+}
+
+.fs50{
+    font-size: 50px;
+}
