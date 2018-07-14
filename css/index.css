@@ -4,6 +4,11 @@
 	width: 1200px;
 	margin:0 auto;
 }
+.safe::after{
+	content: '';
+	display: block;
+	clear: both;
+}
 /*页头*/
 .top_header{
 	line-height: 58px;
@@ -172,8 +177,8 @@
 	font-size: 22px;
 }
 .ftitle5 p:first-child{
-	font-size: 36px;
-	padding-bottom: 22px;
+	font-size: 28px;
+	padding-bottom: 18px;
 }
 .fadr{
 	display: inline-block;
@@ -186,6 +191,38 @@
 }
 .lineheight{
 	line-height: 30px;
+}
+/*遮罩*/
+.acover{
+	background-color: black;
+	height: 150px;
+}
+.acover::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.acover span{
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	float: left;
+}
+.pbtn2 button{
+	display: inline-block;
+	background-color: white;
+	width: 220px;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+	color: #24a9f1;
+	font-size: 22px;
+	outline: none;
+	float: left;
+}
+.pbtn2 i{
+	font-size: 30px;
+	vertical-align: -2px;
 }
 /*页脚*/
 .foot{
