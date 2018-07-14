@@ -163,23 +163,30 @@
 	display: inline-block;
 }
 .ftitle5{
-	width: 400px;
 	color: white;
 	font-size: 18px;
 	float: right;
 	padding-top: 446px;
 }
 .ftitle5 i{
-	font-size: 24px;
+	font-size: 22px;
 }
 .ftitle5 p:first-child{
 	font-size: 36px;
 	padding-bottom: 22px;
 }
-.fw450{
-	text-align: right;
+.fadr{
+	display: inline-block;
+	vertical-align: top;
 }
-
+.float_right{
+	width: 260px;
+	text-align: left;
+	display: inline-block;
+}
+.lineheight{
+	line-height: 30px;
+}
 /*页脚*/
 .foot{
 	color: #999999;
