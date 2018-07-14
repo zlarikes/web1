@@ -1,17 +1,190 @@
-body{
-    /*background-color: #4eb55f;    color: #ffffff;    font-family: '宋体';    font-size: 30px;    /!*加粗*!/    font-weight: bold;    /!*斜体*!/    font-style: italic;    /!*下划线*!/    text-decoration: underline;*/
+*{padding:0;margin:0;}
+
+.safe{
+	width: 1200px;
+	margin:0 auto;
+}
+/*页头*/
+.top_header{
+	line-height: 58px;
+	text-align: right;
+	vertical-align: middle;
+}
+.icon-dianhua{
+	font-size:20px;
+	margin-right: 14px;
+	vertical-align: middle;
+}
+.top_header span{
+	font-size: 14px;
+	vertical-align: middle;
+}
+.mr18{
+	margin-right: 18px;
+}
+/*banner*/
+.banner{
+	height: 940px;
+	background-image: url(../image/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.img1{
+	padding-top: 140px;
+}
+.fz28{
+	font-size: 28px;
+	color: #43698f;
+	padding-top:30px ;
+}
+.pbtn{
+	padding: 90px 0 50px;
+	font-size: 0;
+}
+.pbtn button{
+	width: 280px;
+	height: 60px;
+	border: none;
+	background-color: white;
+	border-radius: 10px;
+	color: #24a9f1;
+	font-size: 22px;
+	outline: none;
+}
+.pbtn button:first-child{
+	margin-right: 22px;
+}
+.pbtn button:active{
+	background-color: #eeeeee;
+}
+.pbtn i{
+	font-size: 40px;
+	vertical-align: -5px;
+}
+.fz20{
+	font-size: 20px;
+	color: white;
+	padding-bottom: 14px;
+	letter-spacing: 5px;
+}
+.img2 img{
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*楼层一*/
+.floor1{
+	height: 1000px;
+	background-color: #4eb55f;
+}
+.fimg1{
+	padding-top: 140px;
+	display: inline-block;
+}
+.ftitle{
+	color: white;
+	font-size: 18px;
+	text-align: right;
+	float: right;
+	padding-top: 414px;
+}
+.ftitle p:first-child{
+	font-size: 36px;
+	padding-bottom: 22px;
+}
+/*楼层二*/
+.floor2{
+	height: 1000px;
+	background-color: #eb9c36;
+}
+.fimg2{
+	padding-top: 200px;
+	float: right;
+}
+.ftitle2{
+	color: white;
+	font-size: 18px;
+	padding-top: 450px;
+	display: inline-block;
+}
+.ftitle2 p:first-child{
+	font-size: 36px;
+	padding-bottom: 22px;
+}
+/*楼层三*/
+.floor3{
+	height: 1000px;
+	background-color: #ed683f;
+}
+.fimg3{
+	padding-top: 180px;
+	display: inline-block;
+}
+.ftitle3{
+	color: white;
+	font-size: 18px;
+	text-align: right;
+	float: right;
+	padding-top: 446px;
+}
+.ftitle3 p:first-child{
+	font-size: 36px;
+	padding-bottom: 22px;
+}
+/*关于我们*/
+.abour{
+	height: 1000px;
+	background-color: #4c9bd7;
+}
+.img4{
+	padding-top: 244px;
+	float: right;
+}
+.abourtxt{
+	width: 600px;
+	color: white;
+	font-size: 18px;
+	padding-top: 428px;
+	display: inline-block;
+}
+.abourtxt p:first-child{
+	font-size: 28px;
+	padding-bottom: 10px;
+}
+/*联系我们*/
+.floor5{
+	height: 1000px;
+	background-color: #356b95;
+}
+.fimg5{
+	padding-top: 300px;
+	display: inline-block;
+}
+.ftitle5{
+	width: 400px;
+	color: white;
+	font-size: 18px;
+	float: right;
+	padding-top: 446px;
+}
+.ftitle5 i{
+	font-size: 24px;
+}
+.ftitle5 p:first-child{
+	font-size: 36px;
+	padding-bottom: 22px;
+}
+.fw450{
+	text-align: right;
 }
 
-.fs50{
-    font-size:40px;
-    line-height: 60px;
-}
-#one{
-    color: blue;
-}
-#one span{
-    color: red;
-}
-ul>span{
-    color: green;
+/*页脚*/
+.foot{
+	color: #999999;
+	vertical-align: middle;
+	background-color: #295373;
+	text-align: center;
+	line-height: 80px;
 }
