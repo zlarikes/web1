@@ -205,8 +205,10 @@
 	font-size: 0;
 	padding-top: 20px;
 }
-.bgacover img{
+.bgacover>*{
 	vertical-align: middle;
+}
+.bgacover img{
 	margin-left: 22px;
 }
 .bgacover::after{
